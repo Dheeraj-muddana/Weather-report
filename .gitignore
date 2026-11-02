@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.db
+cloudflared.exe
+pinggy*
+public_url.txt
+serveo_output*.txt
+tunnel_*
+url.txt

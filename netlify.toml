@@ -1,0 +1,4 @@
+# Publish the weather app plus a downloadable zip of the whole project at /project.zip.
+[build]
+  command = "mkdir -p dist && cp index.html dist/index.html && zip -qr dist/project.zip . -x '.git/*' '.netlify/*' 'dist/*' 'node_modules/*'"
+  publish = "dist"
